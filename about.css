@@ -9,9 +9,12 @@ header {
   padding: 20px;
   text-align: center;
   object-fit: cover;
-  color: rgb(19, 28, 29);
+  color: rgb(0, 0, 0);
   font-size: 75px;
   font-weight: 700;
+}
+header:hover {
+   color: rgb(253, 70, 89) 
 }
 nav {
   background-color: #333;
