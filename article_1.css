@@ -81,7 +81,7 @@ footer {
   margin-right: auto;
   border-width: 3px;
   border-style: solid;
-  border-image: linear-gradient(to-right, darkblue, lightblue);
+  border-image: linear-gradient(to-right, darkblue, lightblue) 1;
   border-radius: 5px;
 }
 
