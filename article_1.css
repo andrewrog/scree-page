@@ -91,3 +91,13 @@ footer {
   display: block;
   margin: 0px;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: light-gray;
+}
+
+table, th, td:hover {
+  background-color: rgb(120, 120, 120);
+}
