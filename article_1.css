@@ -96,6 +96,8 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   background-color: light-gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 table, th, td:hover {
