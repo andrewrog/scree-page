@@ -103,3 +103,8 @@ table, th, td {
 table, th, td:hover {
   background-color: rgb(120, 120, 120);
 }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
