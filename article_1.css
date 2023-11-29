@@ -117,8 +117,8 @@ table {
   padding: 5px 5px;
   border-radius: 5px;
   transition: background-color .4s;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .links:hover {
