@@ -65,14 +65,15 @@ footer {
 
 .image-container {
   width: 15vw;
-  border-color: rgb(20, 20, 50);
-  border-width: 2px;
 }
 
 .actual-image {
   width: 100%;
   height: auto;
   border-radius: 5px;
+  border-color: rgb(20, 20, 50)
+  border-width: 3px;
+  border-style: solid;
 }
 
 .title_of_page {
