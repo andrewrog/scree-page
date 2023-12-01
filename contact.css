@@ -45,7 +45,7 @@ section {
   padding: 20px;
 }
 footer {
-  background-color: #333;
+  background-color: rgb(20, 20, 50);
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -68,7 +68,7 @@ footer {
 .general-links {
   text-decoration: none;
   padding: 10px 15px;
-  background-color: black;
+  background-color: rgb(20, 20, 50);
   border-radius: 10px;
   color: white;
   font: 18px;
@@ -76,7 +76,7 @@ footer {
 }
 
 .general-links:hover {
-  background-color: rgb(66, 66, 66);
+  background-color: rgba(20, 20, 50, .4);
 }
 
 .links-layout {
