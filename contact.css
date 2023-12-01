@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-  background-color: #333;
+  background-color: rgb(50, 50, 50);
   color: #fff;
   text-align: center;
   padding: 10px;
@@ -39,7 +39,7 @@ nav a {
   object-fit: cover;
 }
 nav a:hover {
-  color: rgb(200, 200, 200)
+  color: rgb(170, 170, 170);
 }
 section {
   padding: 20px;
