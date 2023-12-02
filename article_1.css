@@ -79,9 +79,9 @@ footer {
   max-width: 50vw;
   margin-left: auto; 
   margin-right: auto;
-  border-width: 3px;
+  border-width: 4px;
   border-style: solid;
-  border-image: rgb(20, 20, 50);
+  border-color: rgb(20, 20, 50);
   border-radius: 5px;
 }
 
