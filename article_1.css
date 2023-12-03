@@ -127,7 +127,7 @@ table {
 }
 
 .image-gallery img {
-  width: 100%;
+  width: 33vw;
   cursor: pointer;
   transition: border .3s;
 }
