@@ -83,18 +83,31 @@
         <p>Thank you for reading! And check out some of the <a href="https://andrewrog.github.io/scree-page/" class="links">other articles</a> too.</p>
 
         <h3>Images Gallery</h3>
-        <div class="full-image">
-          <img src="images/Spring Creek.jpeg" alt="Spring Creek Drainage">
-          <span>X</span>
+        <div class="full-image" id="fullImageBox">
+          <img src="images/Spring Creek.jpeg" alt="Spring Creek Drainage" id="fullImage">
+          <span onclick="closeImage()">X</span>
         </div>
         <div class="image-gallery">
-          <img src="images/Spring Creek.jpeg" alt="Spring Creek Drainage">
-          <img src="images/copper-mtn.JPG" alt="Copper Mountain - Vail Pass CO">
+          <img src="images/Spring Creek.jpeg" alt="Spring Creek Drainage" onclick="openImage()">
+          <img src="images/copper-mtn.JPG" alt="Copper Mountain - Vail Pass CO" onclick="openImage()">
         </div>
       </div>
     </section>
     <footer>
         &copy; The Scree Skier Herald
     </footer>
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImg() {
+        fullImageBox.style.display = "none";
+      }
+    </script>
   </body>
 </html>
