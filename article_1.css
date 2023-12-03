@@ -118,3 +118,21 @@ table {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.image-gallery {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  grid-gap: 5vw;
+}
+
+.image-gallery img {
+  width: 100%;
+  cursor: pointer;
+  transition: border .7s;
+}
+
+.image-gallery img:hover {
+  border: 5px solid black;
+  border-radius: 10px;
+}
