@@ -1,7 +1,7 @@
 body {
-      font-family: arial;
-      margin: 5px;
-      padding: 0;
+  font-family: arial;
+  margin: 5px;
+  padding: 0;
 }
 header {
   background-image: url(images/gore-range.png), url(images/craig-peak.png), url(images/craig-peak.png);
@@ -144,7 +144,7 @@ table {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
 }
@@ -152,4 +152,13 @@ table {
 .full-image img {
   width: 60vw;
   max-width: 800px;
+}
+
+.full-image span {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
 }
