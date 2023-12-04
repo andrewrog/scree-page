@@ -272,10 +272,35 @@
         custom protection for the fuel tank, oil pan, body with skid plates.</p>
 
         <p>Thank you so much for reading, and <a href="https://andrewrog.github.io/scree-page/index.html" class="links">click here</a> for some other articles too! Until next time - Andrew</p>
+
+        <h3>Images Gallery</h3>
+        <div class="full-image" id="fullImageBox">
+          <img src="images/Spring Creek.jpeg" alt="Spring Creek Drainage" id="fullImage">
+          <span onclick="closeImage()">X</span>
+        </div>
+        <div class="image-gallery">
+          <img src="images/Engine-bay-start.png" alt="Picture of Outback Legacy" onclick="openImage(this.src)">
+          <img src="images/engine.jpeg" alt="Picture of the engine" onclick="openImage(this.src)">
+          <img src="images/Radiator Mount.png" alt="Radiator Mounts to Core Support" onclick="openImage(this.src)">
+          <img src="images/fuel.png" alt="Picture of old fuel in the tank" onclick="openImage(this.src)">
+        </div>
       </div>
     </section>
     <footer>
         &copy; The Scree Skier Herald
     </footer>
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImage() {
+        fullImageBox.style.display = "none";
+      }
+    </script>
   </body>
 </html>
