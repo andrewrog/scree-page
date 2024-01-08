@@ -1,0 +1,165 @@
+body {
+  font-family: arial;
+  margin: 5px;
+  padding: 0;
+}
+header {
+  background-image: url(/images/gore-range.png), url(/images/craig-peak.png), url(/images/craig-peak.png);
+  background-repeat: no-repeat no-repeat, no-repeat;
+  background-position: center top, left top, right top;
+  background-size: auto;
+  padding: 20px;
+  text-align: center;
+  object-fit: cover;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  font-weight: 700;
+}
+nav {
+  background-color: rgb(20, 20, 50);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color .4s;
+}
+.skier-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+nav a:hover {
+  color: rgb(170, 170, 170);
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: rgb(20, 20, 50);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.about-section {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.main-text {
+  line-height: 22.5px;
+  font-size: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.actual-image {
+  width: auto;
+  height: auto;
+  display: block;
+  max-width: 50vw;
+  margin-left: auto; 
+  margin-right: auto;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(20, 20, 50);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caption {
+  color: rgb(79, 79, 79);
+  font-size: 14px;
+  display: block;
+  margin: 0px;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(210, 210, 210);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+table, th, td:hover {
+  background-color: rgb(120, 120, 120);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links:hover {
+  color: rgb(34, 139, 34);
+}
+
+.link-spacing {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  width: 33%;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-gap: 5vw;
+}
+
+.image-gallery img {
+  width: 33vw;
+  cursor: pointer;
+  transition: border .3s;
+}
+
+.image-gallery img:hover {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.full-image {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.full-image img {
+  width: 85vw;
+}
+
+.full-image span {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+}

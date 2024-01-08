@@ -1,0 +1,92 @@
+body {
+  font-family: arial;
+  margin: 5px;
+  padding: 0;
+}
+header {
+  background-image: url(images/gore-range.png), url(images/craig-peak.png), url(images/craig-peak.png);
+  background-repeat: no-repeat no-repeat, no-repeat;
+  background-position: center top, left top, right top;
+  background-size: auto;
+  padding: 20px;
+  text-align: center;
+  object-fit: cover;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  font-weight: 700;
+}
+
+nav {
+  background-color: rgb(20, 20, 50);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color .4s;
+}
+.skier-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+nav a:hover {
+  color: rgb(170, 170, 170);
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(20, 20, 50);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 15vw 1fr;
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.image-container {
+  width: 15vw;
+}
+
+.actual-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.title_of_page {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.content-container {
+  grid-column: 2;
+  font-size: 22px;
+}
+
+.article-title {
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgb(21, 54, 21);
+}
