@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeoman Snow Report</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/article_1.css">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>The Scree Skier Herald</p>
+    </header>
+    <nav>
+      <a href="index.html"><img src="images/skier.png" alt="skier" class="skier-img"></a> &bull;
+      <a href="about.html">About</a> &bull;
+      <a href="contact.html">Contact</a> &bull;
+      <a href="https://www.youtube.com/channel/UCxHGRKdpUG7B7dv-BFliUZQ" target="_blank">Youtube</a> &bull;
+      <a href="updates.html">Updates</a>
+    </nav>
+    <section>
+      <h2>Yeoman Snow Report</h2>
+      <div class="main-text">
+        <p>Went skiing today in the morning up at Yeoman Campground with mom. It was quite warm weather, it almost felt like skiing
+        in the spring time. The snow density and the air temperature were very spring-like. There was one spot on the trail up where we had to take our skis
+        off and walk. There was just not enough coverage in this spot, given the large amount of sunlight that it receives. The main road and north facing slopes
+        are still holding snow quite well. Overall a great ski. I encourage others to get up there when it's sunny because it is very beautiful and scenic up there. 
+        The drive is worth it!</p>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/yeoman-skiing.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Expert balance required ;|</span></p>
+        </div>
+
+        <p><a href="updates.html" class="links">Click here</a> to return to the short articles page.</p>
+      </div>
+    </section>
+    <footer>
+      &copy; The Scree Skier Herald
+    </footer>
+
+    <div class="full-image" id="fullImageBox">
+      <img src="images/yeoman-skiing.jpeg" alt="Spring Creek Drainage" id="fullImage">
+      <span onclick="closeImage()">X</span>
+    </div>
+
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImage() {
+        fullImageBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
