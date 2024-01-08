@@ -1,0 +1,68 @@
+body {
+  font-family: arial;
+  margin: 5px;
+  padding: 0;
+}
+
+header {
+  background-image: url(images/gore-range.png), url(images/craig-peak.png), url(images/craig-peak.png);
+  background-repeat: no-repeat no-repeat, no-repeat;
+  background-position: center top, left top, right top;
+  background-size: auto;
+  padding: 20px;
+  text-align: center;
+  object-fit: cover;
+  color: rgb(0, 0, 0);
+  font-size: 75px;
+  font-weight: 700;
+}
+
+nav {
+  background-color: rgb(20, 20, 50);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color .4s;
+}
+.skier-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+nav a:hover {
+  color: rgb(170, 170, 170);
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(20, 20, 50);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.article-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+a:hover {
+  color: rgb(21, 54, 21);
+}
