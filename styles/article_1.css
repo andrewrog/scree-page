@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 header {
-  background-image: url(/images/gore-range.png), url(/images/craig-peak.png), url(/images/craig-peak.png);
+  background-image: url(scree-page/images/gore-range.png), url(scree-page/images/craig-peak.png), url(scree-page/images/craig-peak.png);
   background-repeat: no-repeat no-repeat, no-repeat;
   background-position: center top, left top, right top;
   background-size: auto;
