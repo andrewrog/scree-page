@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Careful Out There</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/article_1.css">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>The Scree Skier Herald</p>
+    </header>
+    <nav>
+      <a href="index.html"><img src="images/skier.png" alt="skier" class="skier-img"></a> &bull;
+      <a href="about.html">About</a> &bull;
+      <a href="contact.html">Contact</a> &bull;
+      <a href="https://www.youtube.com/channel/UCxHGRKdpUG7B7dv-BFliUZQ" target="_blank">Youtube</a> &bull;
+      <a href="updates.html">Updates</a>
+    </nav>
+    <section>
+      <h2>Be Careful Out There</h2>
+      <div class="main-text">
+        <p>The day spring semester began I managed to lose a tooth. Thankfully, the tooth that I lost is fake; It was held in with ceramic. 
+        I managed to do this while eating some jerky. The interesting part of all this is that I've really only had 3 or so people comment on
+        the fact that its missing. The moral of the story here is to avoid eating jerky if you have any teeth bonded with ceramic.</p>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/missing_tooth.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">The missing tooth... :`&#040;</span></p>
+        </div>
+
+        <p>Also, here's a nice picture I took of some mountains from the Meadows trail system in Crested Butte.</p>
+        <div class="image-container">
+          <img class="actual-image" src="images/cool-mountains.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Looking back in the direction of Crested Butte</span></p>
+        </div>
+
+        <p><a href="updates.html" class="links">Click here</a> to return to the short articles page.</p>
+      </div>
+    </section>
+    <footer>
+      &copy; The Scree Skier Herald
+    </footer>
+
+    <div class="full-image" id="fullImageBox">
+      <img src="images/missing_tooth.jpeg" alt="Spring Creek Drainage" id="fullImage">
+      <span onclick="closeImage()">X</span>
+    </div>
+
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImage() {
+        fullImageBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
