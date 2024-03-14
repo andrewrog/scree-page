@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionable Purchase</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/article_1.css">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>The Scree Skier Herald</p>
+    </header>
+    <nav>
+      <a href="index.html"><img src="images/skier.png" alt="skier" class="skier-img"></a> &bull;
+      <a href="about.html">About</a> &bull;
+      <a href="contact.html">Contact</a> &bull;
+      <a href="https://www.youtube.com/channel/UCxHGRKdpUG7B7dv-BFliUZQ" target="_blank">Youtube</a> &bull;
+      <a href="updates.html">Updates</a>
+    </nav>
+    <section>
+      <h2>Suspicious Activities</h2>
+      <div class="main-text">
+        <p>Just bought another vehicle to add to the dwindling fleet. The blue oval is back in the sandlot. If you couldn't
+        guess already it's a Ford. Not just any Ford though; A tough, reliable, showroom condition 1995 F250 Powerstroke Diesel. It's got
+        a pretty bad case of Ford door, the interior and exterior are filthy, and the overall mechanical condition is questionable. </p>
+
+
+        <p>In it's defense, there are a plethora of modern ammenities integrated into the chassis; The wonders of powersteering, air conditioning, and believe it or not power windows. 
+        In all seriousness, why on Earth did I actually purchase this thing? Well, I do very much like the styling. And I do very much like the powertrain. And I do,
+        very much so, like giving myself the challenge of working on beater vehicles. I hope to tap its full potential and use it for truck-like activities: Towing vehicles,
+        helping Biden move out of the white house, offroad obstacles, etc. I ended up paying $4500 for this rig which might sound like a lot and it is. I guess, that's the 7.3 tax coming into play.
+        I'm excited to start getting out there and doing stuff with it. Check out some pictures below of the beauty:</p>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/F250_front.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Possible bird strike identified... :&#40;</span></p>
+        </div>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/F250_back.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Back of the truck...</span></p>
+        </div>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/F250_side.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Side of the truck. Some minor denting is visible to the expertly trained eye...</span></p>
+        </div>
+
+        <div class="image-container">
+          <img class="actual-image" src="images/F250_interior.jpeg" onclick="openImage(this.src)">
+          <p><span class="caption">Interior of the truck. The dash is very cracked and it is pretty dirty in there...</span></p>
+        </div>
+
+        <p>As I'm sure you can tell by the pictures there is a lot of work to be done. I may very well document the repairs and upgrades I make to the truck on my Youtube channel. I intend to keep track of all costs associated with this build.
+        Thank you very much for checking out this update.</p>
+
+        <p><a href="updates.html" class="links">Click here</a> to return to the short articles page.</p>
+      </div>
+    </section>
+    <footer>
+      &copy; The Scree Skier Herald
+    </footer>
+
+    <div class="full-image" id="fullImageBox">
+      <img src="images/F250_front.jpeg" alt="Front of F250" id="fullImage">
+      <span onclick="closeImage()">X</span>
+    </div>
+
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImage() {
+        fullImageBox.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
