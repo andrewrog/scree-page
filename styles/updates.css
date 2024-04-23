@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: rgb(209, 233, 240);
+  background-image: linear-gradient(to bottom right, rgb(132, 192, 224), rgb(189, 181, 213));
   padding: 20px;
   text-align: center;
   object-fit: cover;
