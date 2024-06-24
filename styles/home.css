@@ -22,6 +22,7 @@ nav {
   align-items: center;
   font-size: 22px;
   justify-content: center;
+  width: 100%;
 }
 nav a {
   color: #fff;
