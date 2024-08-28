@@ -22,6 +22,7 @@ nav {
   font-size: 22px;
   justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 nav a {
   color: #fff;
