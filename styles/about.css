@@ -61,3 +61,29 @@ footer {
   font-weight: 400;
   font-size: 20px;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin: 0;
+}
+
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
