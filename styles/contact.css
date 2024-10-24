@@ -53,6 +53,7 @@ footer {
   padding: 10px;
   position: absolute;
   width: 100%;
+  bottom: 0;
 }
 
 .article-title {
