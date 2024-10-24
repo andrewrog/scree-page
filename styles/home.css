@@ -36,6 +36,11 @@ nav a {
   height: 50px;
   border-radius: 25px;
   object-fit: cover;
+  transition: opacity .5s
+
+.skier-img:hover {
+  opacity: .5;
+}
 }
 nav a:hover {
   color: rgb(170, 170, 170);
