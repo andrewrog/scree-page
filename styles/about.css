@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-image: linear-gradient(to bottom right, rgb(132, 192, 224), rgb(189, 181, 213));
   padding: 20px;
@@ -25,24 +26,36 @@ nav {
   width: 100%;
   flex-wrap: wrap;
 }
+
 nav a {
   color: #fff;
   text-decoration: none;
   padding: 0 10px;
   transition: color .4s;
 }
+
 .skier-img {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   object-fit: cover;
+  opacity: .5;
+  transition: opacity .5s;
 }
+
+.skier-img:hover {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
 nav a:hover {
   color: rgb(170, 170, 170)
 }
+
 section {
   padding: 20px;
 }
+
 footer {
   background-color: rgb(20, 20, 50);
   color: #fff;
