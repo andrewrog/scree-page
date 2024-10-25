@@ -38,11 +38,13 @@ nav a {
   object-fit: cover;
   opacity: .5;
   transition: opacity .5s;
+}
 
 .skier-img:hover {
   opacity: 1;
   transition: opacity .5s;
 }
+
 }
 nav a:hover {
   color: rgb(170, 170, 170);
