@@ -27,7 +27,7 @@ nav {
   flex-wrap: wrap;
 }
 
-nav a {
+.nav-link {
   color: #fff;
   text-decoration: none;
   padding: 0 10px;
@@ -48,8 +48,8 @@ nav a {
   transition: opacity .5s;
 }
 
-nav a:hover {
-  color: rgb(170, 170, 170)
+.nav-link:hover {
+  color: rgb(170, 170, 170);
 }
 
 section {
