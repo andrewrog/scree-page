@@ -91,10 +91,12 @@ footer {
 
 .gallery-item img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 200px;
     border-radius: 5px;
     cursor: pointer;
+    object-fit: cover;
+    object-position: center;
 }
 
 a:hover {
