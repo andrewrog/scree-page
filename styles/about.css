@@ -48,10 +48,6 @@ nav {
   transition: opacity .5s;
 }
 
-.nav-link:hover {
-  color: rgb(170, 170, 170);
-}
-
 section {
   padding: 20px;
 }
@@ -99,4 +95,8 @@ footer {
     height: auto;
     border-radius: 5px;
     cursor: pointer;
+}
+
+a:hover {
+  color: rgb(170, 170, 170);
 }
