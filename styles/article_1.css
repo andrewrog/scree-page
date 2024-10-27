@@ -46,12 +46,11 @@ nav {
 }
 
 }
-.nav-link:hover {
-  color: rgb(170, 170, 170);
-}
+
 section {
   padding: 20px;
 }
+
 footer {
   background-color: rgb(20, 20, 50);
   color: #fff;
@@ -171,4 +170,8 @@ table {
   font-size: 40px;
   color: black;
   cursor: pointer;
+}
+
+a:hover {
+  color: rgb(170, 170, 170);
 }
