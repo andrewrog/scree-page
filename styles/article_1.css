@@ -111,7 +111,7 @@ table, th, td {
 }
 
 table, th, td:hover {
-  background-color: rgb(120, 120, 120);
+  background-color: rgb(170, 170, 170);
 }
 
 table {
@@ -120,7 +120,7 @@ table {
 }
 
 .links:hover {
-  color: rgb(34, 139, 34);
+  color: rgb(170, 170, 170);
 }
 
 .link-spacing {
