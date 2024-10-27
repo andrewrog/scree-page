@@ -49,9 +49,8 @@ nav a {
 }
 
 }
-nav a:hover {
-  color: rgb(170, 170, 170);
-}
+
+
 section {
   padding: 20px;
 }
@@ -92,4 +91,8 @@ footer {
 
 .link-spacing {
   margin-top: 21px;
+}
+
+a:hover {
+  color: rgb(170, 170, 170);
 }
