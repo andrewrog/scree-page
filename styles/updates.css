@@ -48,9 +48,6 @@ nav a {
 }
 
 }
-nav a:hover {
-  color: rgb(170, 170, 170);
-}
 
 section {
   padding: 20px;
@@ -73,5 +70,5 @@ footer {
 }
 
 a:hover {
-  color: rgb(21, 54, 21);
+  color: rgb(170, 170, 170);
 }
