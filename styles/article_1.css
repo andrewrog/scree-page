@@ -48,8 +48,7 @@ nav {
 }
 
 .article-container {
-  margin-right: 10px;
-  margin-left: 10px;
+  padding: 10px;
 }
 
 footer {
