@@ -1,7 +1,7 @@
 body {
   font-family: Nunito, Arial;
   margin: 0;
-  padding: 0;
+  padding-bottom: 20px;
 }
 header {
   background-image: linear-gradient(to bottom right, rgb(132, 192, 224), rgb(189, 181, 213));
