@@ -76,8 +76,9 @@ footer {
 
 .gallery {
     display: grid;
-    column-gap: 10px;
+    column-gap: 20px;
     margin: 0;
+    row-gap: 20px;
 }
 
 @media (max-width: 600px) {
