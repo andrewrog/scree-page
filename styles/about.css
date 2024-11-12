@@ -113,7 +113,7 @@ footer {
 .gallery-item img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 250px; /* Height of images remains constant */
     border-radius: 5px;
     cursor: pointer;
     object-fit: cover;
