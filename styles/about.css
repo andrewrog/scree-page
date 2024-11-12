@@ -5,7 +5,9 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to bottom right, rgb(132, 192, 224), rgb(189, 181, 213));
+  background: url('background-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 20px;
   text-align: center;
   object-fit: cover;
