@@ -3,15 +3,20 @@ body {
   margin: 0;
   padding-bottom: 20px;
 }
+
 header {
-  background-image: linear-gradient(to bottom right, rgb(132, 192, 224), rgb(189, 181, 213));
+  background: url('background-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
   padding: 20px;
   text-align: center;
   object-fit: cover;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 75px;
   font-weight: 700;
 }
+
 nav {
   background-color: rgb(20, 20, 50);
   color: #fff;
