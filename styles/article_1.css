@@ -16,7 +16,8 @@ nav {
   background-color: rgb(20, 20, 50);
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   font-size: 22px;
