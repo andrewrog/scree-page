@@ -90,6 +90,7 @@ footer {
 
 .general-links:hover {
   background-color: rgba(20, 20, 50, .4);
+  color: black;
 }
 
 .link-spacing {
