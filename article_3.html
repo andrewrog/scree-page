@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Colorado Avalanche Analysis</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/article_1.css">
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <p>The Scree Skier Herald</p>
+    </header>
+    <nav>
+      <a href="index.html"><img src="images/skier.png" alt="skier" class="skier-img"></a> &bull;
+      <a href="about.html">About</a> &bull;
+      <a href="contact.html">Contact</a> &bull;
+      <a href="https://www.youtube.com/channel/UCxHGRKdpUG7B7dv-BFliUZQ" target="_blank">Youtube</a> &bull;
+      <a href="updates.html">Updates</a> &bull;
+      <a href="automotive.html">Automotive</a>
+    </nav>
+    <section>
+      <h2>The Entrepreneurial Ascent</h2>
+      <p>Author: Andrew Rogers</p>
+      <p>Date: January 11, 2024</p>
+      <div class="main-text">
+      
+      <p>For the past couple of months I have been working on something called the Entrepreneurial Ascent. It is a site where you can learn fundamental accounting and finance business topics for free, with the help of videos and problem sets primarily. Sure there are a lot of sites on the internet that you can use to your advantage to learn some concepts. But a lot of these sources have disadvantages such as a lot of advertisements or content hidden behind paywalls. The Entrepreneurial Ascent is a site that business owners, students, entrepreneurs... anyone can use to sharpen preexisting knowledge or learn important concepts and theories.</p>
+
+
+
+      <h3>Site Layout</h3>
+
+      <p>In the navigation bar at the top of the site you will find the following pages:</p>
+      <ul class="lists">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Videos">Videos</a></li>
+        <li><a href="#Problem Sets">Problem Sets</a></li>
+        <li><a href="#Resources">Resources</a></li>
+        <li><a href="#Financial Calculator">Financial Calculator</a></li>
+        <li><a href="Downloads">Downloads</a></li>
+        <li><a href="Sources">Sources</a></li>
+      </ul>
+
+      <h3 id="Home">Home</h3>
+
+      <p>Here you can read about the mission of the site some of the problems it hopes to solve.</p>
+
+      <h3 id="Videos">Videos</h3>
+
+      <p>On this page of the site you will find all the videos posted on each topic. Right now the topics up are Accounting Principles, Budgeting Principles, Taxes and Organizational Structure, and Learn More. If you hover over each thumbnail on the page it will give you some information about the video like the date it was published, the duration, and a quick description of what is discussed.</p>
+
+      <h3 id="Problem Sets">Problem Sets</h3>
+      
+      <p>This part of the site has not been built out yet. I still need to put together a bunch of resources that go hand in hand with the videos. Once this page is complete, you will be able to answer problems with the availability of hints and a check answer function as well. </p>
+
+      <h3 id="Resources">Resources</h3>
+
+      <p>On this page specifically you will find a directory linking you too all the other functionalities of the site, mostly a calculator, downloads section, and a sources section too.</p>
+
+      <h3 id="Financial Calculator">Financial Calculator</h3>
+
+      <p>The financial calculator is a resource that allows you to do financial ratio and metric analysis with a little walk through guide and input fields that make it super easy. You can select different ratios from the drop down and then compute the ratio with your current values. Once you get the result the result is saved and it can be copied and pasted into other softwares like Excel or Google Sheets, really anything that you want.</p>
+
+      <h3 id="Downloads">Downloads</h3>
+
+      <p>This page of the site is dedicated to downloadable content. Some of the content available on the site now is video guides and excel templates. This downloads page will be much more extensive as more and more material is added to the site.</p>
+
+      <h3 id="Sources">Sources</h3>
+
+      <p>This page of the site is dedicated to sources that were used gather information to make the videos and other content available. Additionally there will be a helpful links section that people can use to go to navigate to other great websites.</p>
+
+        <div class="image-container">
+          <img src="images/entrepreneur.png" alt="Logo" class="actual-image" onclick="openImage(this.src)">
+          <p><span class="caption">Entrepreneurial Ascent Logo</span></p>
+        </div>
+
+        <p>The site is still very much so under construction. A lot more resources will be available I am hoping by May 2025. Please feel free to check out the current iteration of the site <a href="https://andrewrog.github.io/Senior-Project/index.html">here</a>. Thank you for reading! Check out some more articles <a href="index.html">here</a>.</p>
+
+        <div class="full-image" id="fullImageBox">
+          <img src="images/entrepreneur.png" alt="logo" id="fullImage">
+          <span onclick="closeImage()">X</span>
+        </div>
+
+      </div>
+    </section>
+    <footer>
+        &copy; The Scree Skier Herald
+    </footer>
+    <script>
+      let fullImageBox = document.getElementById("fullImageBox");
+      let fullImage = document.getElementById("fullImage");
+      let n = localStorage.getItem('on_load_counter');
+      if (n === null) {
+        
+      }
+
+      function openImage(pic) {
+        fullImageBox.style.display = "flex";
+        fullImage.src = pic;
+      }
+
+      function closeImage() {
+        fullImageBox.style.display = "none";
+      }
+
+    </script>
+  </body>
+</html>
